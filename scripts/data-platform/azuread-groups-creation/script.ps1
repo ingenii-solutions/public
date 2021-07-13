@@ -159,7 +159,7 @@ do {
 
     switch ($selection) {
         '1' { 
-            $Prefix = Read-Host "Please enter the new prefix. (All capitals recommended)"
+            $Prefix = Read-Host "Please enter the new prefix"
         } 
         '2' { 
             Test-IIDefaultAzureADGroupsExist -Prefix $Prefix -GroupsList $defaultAzureADGroups -EnvironmentsList $defaultEnvironments
