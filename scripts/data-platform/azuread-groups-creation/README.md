@@ -22,3 +22,24 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 Use the interactive menu
 
 ![Menu](./files/menu.png)
+
+## Results
+
+The script will let you review and create the required Azure AD groups.
+
+You will also have a chance to choose the group name `prefix`.
+
+As of today, we are creating the following groups:
+
+- `prefix`-Shared-Admins
+- `prefix`-Shared-Engineers
+- `prefix`-Shared-Analysts
+- `prefix`-Dev-Admins
+- `prefix`-Dev-Engineers
+- `prefix`-Dev-Analysts
+- `prefix`-Test-Admins
+- `prefix`-Test-Engineers
+- `prefix`-Test-Analysts
+- `prefix`-Prod-Admins
+- `prefix`-Prod-Engineers
+- `prefix`-Prod-Analysts
