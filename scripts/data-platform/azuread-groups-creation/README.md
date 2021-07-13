@@ -16,7 +16,7 @@ Open the [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/
 Run the following command
 
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ingenii-solutions/public/blob/main/scripts/data-platform/azuread-groups-creation/script.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ingenii-solutions/public/main/scripts/data-platform/azuread-groups-creation/script.ps1'))
 ```
 
 Use the interactive menu
