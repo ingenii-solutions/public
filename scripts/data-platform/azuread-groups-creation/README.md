@@ -11,7 +11,23 @@ You must have access to the Azure Cloud Shell and have the necessary permissions
 
 ## Usage
 
-Open the [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview)
+### Step 1
+
+Log in to the [Azure Portal](http://portal.azure.com/)
+
+### Step 2
+
+Open the Azure Cloud Shell
+
+![Azure Cloud Shell](files/azure_cloud_shell.png)
+
+### Step 3
+
+Select PowerShell as the execution environment
+
+![Azure Cloud Shell Exec Env](files/azure_cloud_shell_powershell.png)
+
+### Step 4
 
 Run the following command
 
