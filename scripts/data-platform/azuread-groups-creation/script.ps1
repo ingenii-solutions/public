@@ -137,7 +137,7 @@ function Show-Menu {
     Write-Host "Menu"
     Write-Host "1: Press '1' to change the name prefix"
     Write-Host "2: Press '2' to check the group name availability"
-    Write-Host "3: Press '3' to create the Azure AD Groups (confirmation required)"
+    Write-Host "3: Press '3' to preview and create the Azure AD Groups (confirmation required)"
     Write-Host "Q: Press 'Q' to quit."
 }
 
@@ -160,7 +160,6 @@ do {
     switch ($selection) {
         '1' { 
             $Prefix = Read-Host "Please enter the new prefix"
-
         } 
         '2' { 
             Test-IIDefaultAzureADGroupsExist -Prefix $Prefix -GroupsList $defaultAzureADGroups -EnvironmentsList $defaultEnvironments
